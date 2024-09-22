@@ -149,10 +149,17 @@ html { font-family: var(--ff-poppins); }
 body { background: var(--smoky-black); }
 
 .drdo{
-  height: 120px;
+  height: 181px;
   width: 120px;
 }
 
+.main-content article {
+  display: none;
+}
+
+.main-content article.active {
+  display: block;
+}
 
 
 /*-----------------------------------*\
@@ -554,7 +561,10 @@ main {
  * #testimonials 
  */
 
-.testimonials { margin-bottom: 30px; }
+.testimonials { 
+  display: none;
+  margin-bottom: 30px; 
+}
 
 .testimonials-title { margin-bottom: 20px; }
 
@@ -824,11 +834,13 @@ main {
 }
 
 
-/**
- * skills 
- */
+.skill{
+  display: none;
+}
 
-.skills-title { margin-bottom: 20px; }
+
+.skills-title { 
+  margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
 
@@ -862,7 +874,10 @@ main {
 }
 
 
-
+.note-form{
+  color: white;
+  margin-bottom: 20px;
+}
 
 
 /*-----------------------------------*\
